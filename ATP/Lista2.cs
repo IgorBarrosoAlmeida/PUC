@@ -45,32 +45,27 @@ namespace Aula2Condicionais
                 if (idade2 > idade3)
                 {
                     menor = idade3;
-                }
-                else
+                } else
                 {
                     menor = idade2;
                 }
-            }
-            else if (idade2 > idade3)
+            } else if (idade2 > idade3)
             {
                 maior = idade2;
                 if (idade1 > idade3)
                 {
                     menor = idade3;
-                }
-                else
+                } else
                 {
                     menor = idade1;
                 }
-            }
-            else
+            } else
             {
                 maior = idade3;
                 if (idade1 > idade2)
                 {
                     menor = idade2;
-                }
-                else
+                } else
                 {
                     menor = idade1;
                 }
@@ -82,7 +77,7 @@ namespace Aula2Condicionais
         }
 
         static void ex2()
-        {  
+        {
             // Variaveis
             int num;
             string saida;
@@ -107,7 +102,8 @@ namespace Aula2Condicionais
             } else if (num == 5)
             {
                 saida = "O valor em extenso é: Cinco";
-            } else {
+            } else
+            {
                 saida = "Valor inválido";
             }
 
@@ -128,13 +124,13 @@ namespace Aula2Condicionais
             tipo_habilitacao = char.Parse(Console.ReadLine());
             Console.WriteLine("Digite o tempo(em anos) habilitado: ");
             tempo_habilitado = int.Parse(Console.ReadLine());
-           
+
             // Processamento e saida de dados
-            if(idade >= 21)
+            if (idade >= 21)
             {
-                if(tipo_habilitacao == 'C' || tipo_habilitacao == 'c')
+                if (tipo_habilitacao == 'C' || tipo_habilitacao == 'c')
                 {
-                    if(tempo_habilitado >= 1)
+                    if (tempo_habilitado >= 1)
                     {
                         Console.WriteLine("Você atende aos requisitoss para tirar habilitação do tipo D");
                     } else
@@ -179,7 +175,7 @@ namespace Aula2Condicionais
             if (opcao == 1)
             {
                 resultado = num1 + num2;
-            } else if(opcao == 2)
+            } else if (opcao == 2)
             {
                 resultado = num1 - num2;
             } else if (opcao == 3)
@@ -187,7 +183,7 @@ namespace Aula2Condicionais
                 resultado = num1 * num2;
             } else if (opcao == 4)
             {
-                if(num2 != 0)
+                if (num2 != 0)
                 {
                     resultado = num1 / num2;
                 } else
@@ -200,7 +196,7 @@ namespace Aula2Condicionais
             }
 
             // Saida de dados
-            if(resultado != 0)
+            if (resultado != 0)
             {
                 Console.WriteLine($"O resultado é: {resultado}");
             }
@@ -229,16 +225,18 @@ namespace Aula2Condicionais
             } else if (idade >= 14 && idade <= 17)
             {
                 Console.WriteLine("Juvenil B.");
-            } else if(idade >= 18)
+            } else if (idade >= 18)
             {
                 Console.WriteLine("Sênior.");
-            } else {
+            } else
+            {
                 Console.WriteLine("Não tem idade o suficiente para ser nadador");
             }
             Console.ReadKey();
         }
 
-        static void ex6() {
+        static void ex6()
+        {
             int w, x, y, z;
             double resultado = 0;
 
@@ -253,48 +251,58 @@ namespace Aula2Condicionais
             z = int.Parse(Console.ReadLine());
 
             // Processamento de dados
-            if(w == 1) {
+            if (w == 1)
+            {
                 // Média geometrica
-                resultado = Math.Sqrt(x*y*z);
-            } else if(w == 2) {
+                resultado = Math.Sqrt(x * y * z);
+            } else if (w == 2)
+            {
                 // Média ponderada
-                resultado = (x + (2*y) + (3*z)) / 6f;
-            } else if(w == 3) {
+                resultado = (x + (2 * y) + (3 * z)) / 6f;
+            } else if (w == 3)
+            {
                 // Média harmônica
-                resultado = 1 / ((1f/x) + (1f/y) + (1f/z));
-            } else if(w == 4) {
+                resultado = 1 / ((1f / x) + (1f / y) + (1f / z));
+            } else if (w == 4)
+            {
                 // Média aritmética
                 resultado = (x + y + z) / 3f;
-            } else {
+            } else
+            {
                 Console.WriteLine("Opção invalida");
             }
 
             // Saida de dados
-            if(w > 0 && w < 5) {
-            Console.WriteLine($"O resultado é: {resultado}");
+            if (w > 0 && w < 5)
+            {
+                Console.WriteLine($"O resultado é: {resultado}");
             }
             Console.ReadKey();
         }
 
-        static void ex7() {
+        static void ex7()
+        {
             // Variaveis
             int num;
-           
+
             // Leitua de dados
             Console.WriteLine("Digite um número: ");
             num = int.Parse(Console.ReadLine());
 
 
             // Processamento e saida de dados
-            if(num % 3 == 0 && num % 5 == 0) {
+            if (num % 3 == 0 && num % 5 == 0)
+            {
                 Console.WriteLine("O numero é divisivel por 3 e por 5.");
-            } else {
+            } else
+            {
                 Console.WriteLine("O número não é divisivel por 3 e por 5 simultaneamente");
             }
             Console.ReadKey();
         }
 
-        static void ex8() {
+        static void ex8()
+        {
             // Variaveis
             int dia;
 
@@ -303,7 +311,8 @@ namespace Aula2Condicionais
             dia = int.Parse(Console.ReadLine());
 
             // Saida de dados
-            switch(dia){
+            switch (dia)
+            {
                 case 1:
                     Console.WriteLine("O dia corresponde ao domingo");
                     break;
@@ -332,7 +341,8 @@ namespace Aula2Condicionais
             Console.ReadKey();
         }
 
-        static void ex9() {
+        static void ex9()
+        {
             // Variaveis
             int num;
 
@@ -341,7 +351,8 @@ namespace Aula2Condicionais
             num = int.Parse(Console.ReadLine());
 
             // Processamento e saida de dados
-            switch(num) {
+            switch (num)
+            {
                 case 0:
                     Console.WriteLine($"O numero em extenso é: Zero");
                     break;
@@ -364,35 +375,38 @@ namespace Aula2Condicionais
             Console.ReadKey();
         }
 
-        static void ex10() {
+        static void ex10()
+        {
             // Variaveis
             int opcao, medida = 0;
 
             // Leitura de dados
             Console.WriteLine("Escolha a conversão:\n1. Converter de centímetros para metros.\n2. Converter de metros para centímetros.\n3. Converter de milímetros para metros.\n4. Converter de metros para milímetros.");
             opcao = int.Parse(Console.ReadLine());
-            if(opcao >0 && opcao < 5){
+            if (opcao > 0 && opcao < 5)
+            {
                 Console.WriteLine("Digite a medida: ");
                 medida = int.Parse(Console.ReadLine());
             }
 
             // Processamento e saida de dados
-            switch(opcao) {
+            switch (opcao)
+            {
                 case 1:
                     // Converter de centímetros para metros
-                    Console.WriteLine($"cm: {medida} --> metros: {medida/100f}");
+                    Console.WriteLine($"cm: {medida} --> metros: {medida / 100f}");
                     break;
                 case 2:
                     // Converter de metros para centímetros
-                    Console.WriteLine($"metros: {medida} --> cm: {medida*100}");                
+                    Console.WriteLine($"metros: {medida} --> cm: {medida * 100}");
                     break;
                 case 3:
                     // Converter de milímetros para metros
-                    Console.WriteLine($"milimetro: {medida} --> metros: {medida/1000f}");                    
+                    Console.WriteLine($"milimetro: {medida} --> metros: {medida / 1000f}");
                     break;
                 case 4:
                     // Converter de metros para milímetros
-                    Console.WriteLine($"metros: {medida} --> milimetros: {medida*1000}");
+                    Console.WriteLine($"metros: {medida} --> milimetros: {medida * 1000}");
                     break;
                 default:
                     Console.WriteLine("Opção invalida");
@@ -401,7 +415,8 @@ namespace Aula2Condicionais
             Console.ReadKey();
         }
 
-        static void ex11() {
+        static void ex11()
+        {
             // Variaveis
             char letra;
             bool eh_vogal;
@@ -411,7 +426,8 @@ namespace Aula2Condicionais
             letra = char.Parse(Console.ReadLine());
 
             // Processamento de dados
-            switch(letra){
+            switch (letra)
+            {
                 case 'a':
                     eh_vogal = true;
                     break;
@@ -449,15 +465,18 @@ namespace Aula2Condicionais
             }
 
             // Saida de dados
-            if(eh_vogal){
+            if (eh_vogal)
+            {
                 Console.WriteLine("A letra é uma vogal");
-            } else {
+            } else
+            {
                 Console.WriteLine("A letra não é uma vogal");
             }
             Console.ReadKey();
         }
 
-        static void ex12() {
+        static void ex12()
+        {
             // Variaveis
             float altura, peso_ideal;
             char sexo;
@@ -476,24 +495,17 @@ namespace Aula2Condicionais
             Console.ReadKey();
         }
 
-        static void ex13() {
+        static void ex13()
+        {
             // Variaveis
             int ano;
-            bool eh_bissexto;
-           
+
             // Leitura de dados
             Console.WriteLine("Digite um ano para saber se ele é bissexto:");
             ano = int.Parse(Console.ReadLine());
 
-            // Processamento de dados
-            eh_bissexto = (ano % 400 == 0) || (ano % 4 == 0 && ano % 100 != 0)? true : false;
-
             // Saida de dados
-            if(eh_bissexto) {
-                Console.WriteLine("O ano informado é bissexto");
-            } else {
-                Console.WriteLine("O ano informado não é bissexto");
-            }
+            Console.WriteLine((ano % 400 == 0) || (ano % 4 == 0 && ano % 100 != 0) ? "O ano é bissexto" : "O ano não é bissexto");
             Console.ReadKey();
         }
     }
