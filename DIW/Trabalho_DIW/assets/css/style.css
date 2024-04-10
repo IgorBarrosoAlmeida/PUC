@@ -1,0 +1,47 @@
+/* Estilizações gerais */
+main {
+    margin-top: 70px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+/* Estilização da primeira seção */
+h2 {
+    font-size: 32px;
+    border-bottom: 2px solid black;
+}
+
+
+.imagem_perfil {
+    display: inline-block;
+    width: 25%;
+}
+
+
+.detalhes_perfil {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.detalhes_perfil span{
+    font-weight: bold;
+}
+
+
+.redes_sociais{
+    font-size: 48px;
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+
+.redes_sociais a {
+    color: black;
+}
+.redes_sociais a:hover {
+    color: gray;
+}
+
+
+/* Estilização da segunda seção */
