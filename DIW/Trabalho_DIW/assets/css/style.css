@@ -6,17 +6,23 @@ main {
 }
 
 /* Estilização da primeira seção */
+#secao1 {
+    margin-bottom: 35px;
+}
+
 h2 {
     font-size: 32px;
     border-bottom: 2px solid black;
 }
-
 
 .imagem_perfil {
     display: inline-block;
     width: 25%;
 }
 
+.imagem_perfil img {
+    width: 80%;
+}
 
 .detalhes_perfil {
     display: inline-block;
@@ -43,5 +49,9 @@ h2 {
     color: gray;
 }
 
-
 /* Estilização da segunda seção */
+.repositorios a {
+    color: black;
+}
+
+/* Estilização da página de repositório */
