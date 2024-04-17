@@ -1,8 +1,13 @@
 /* Estilizações gerais */
 main {
-    margin-top: 70px;
     width: 95%;
     margin-left: 2.5%;
+}
+
+.navbar-brand {
+    background-color: #E6E6E6;
+    padding: 15px;
+    
 }
 
 /* Estilização da primeira seção */
@@ -136,9 +141,5 @@ h2 {
     .imagem_perfil {
         display: block;
         width: 80%;
-    }
-
-    main {
-        margin-top: 100px;
     }
 }
