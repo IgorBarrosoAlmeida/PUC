@@ -27,13 +27,12 @@ h2 {
 .detalhes_perfil {
     display: inline-block;
     vertical-align: top;
+    max-width: 70%;
 }
-
 
 .detalhes_perfil span{
     font-weight: bold;
 }
-
 
 .redes_sociais{
     font-size: 48px;
@@ -45,6 +44,7 @@ h2 {
 .redes_sociais a {
     color: black;
 }
+
 .redes_sociais a:hover {
     color: gray;
 }
@@ -54,4 +54,91 @@ h2 {
     color: black;
 }
 
-/* Estilização da página de repositório */
+.bi-star-fill {
+    font-size: 28px;
+    color: gray;
+}
+
+.bi-person-fill {
+    font-size: 32px;
+    color: #0D99FF;
+}
+
+.icons, .repo_icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Estilização da seção 3 */
+.carousel {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Estilização da seção 4 */
+.colega img{
+    width: 110px;
+    height: 100px;
+}
+
+.colega h3 {
+    color: #0D99FF;
+}
+
+.detalhes_perfil {
+    width: 100%;
+}
+
+.detalhes_perfil .info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Estilização da pagina de repositorio */
+.repo_sect h4{
+    color: #0D99FF;
+}
+
+.detalhes_repo--content {
+    display: inline-block;
+    width: 90%;
+}
+
+.repo_icons {
+    max-width: 10%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topicos {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.topicos button {
+    background-color: #0D99FF;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.topicos button:hover {
+    background-color: #097fd4;
+}
+
+/* Estilização de dispositivos pequenos */
+@media screen and (max-width: 992px) {
+    .imagem_perfil {
+        display: block;
+        width: 80%;
+    }
+
+    main {
+        margin-top: 100px;
+    }
+}
