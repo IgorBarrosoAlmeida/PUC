@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizações gerais */
+body {
+    background-color:burlywood;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(71, 52, 26);
+}
+
+/* Estilização do formulario */
+#form {
+    max-width: 500px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(253, 235, 211);
+    border-radius: 50px;
+    margin: 50px auto;
+    font-size: 32px;
+}
+
+#form input {
+    padding: 10px 20px;
+}

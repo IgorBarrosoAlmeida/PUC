@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de moedas</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Conversão de moedas</h1>
+
+        <form action="" id="form">
+            <label for="valor">Digite o valor que quer converter</label>
+            <input type="number" name="valor" id="input_valor">
+
+            <label for="origem">Moeda de origem</label>
+            <select name="origem" id="moeda_origem">
+                <option value="real">Real</option>
+                <option value="dolar_americano">Dolar Americano</option>
+                <option value="euro">Euro</option>
+                <option value="iene">Iene</option>
+                <option value="dolar_canadense">Dolar Canadense</option>
+            </select>
+
+            <label for="destino">Moeda de destino</label>
+            <select name="destino" id="moeda_destino">
+                <option value="real">Real</option>
+                <option value="dolar_americano">Dolár Americano</option>
+                <option value="euro">Euro</option>
+                <option value="iene">Iene</option>
+                <option value="dolar_canadense">Dolár Canadense</option>
+            </select>
+            
+            <input type="submit" value="Converter" id="botao_converter">
+        </div>
+
+        <div id="convertido">
+
+        </div>
+    </main>
+
+    <script src="./src/javascript/main.js"></script>
+</body>
+</html>
