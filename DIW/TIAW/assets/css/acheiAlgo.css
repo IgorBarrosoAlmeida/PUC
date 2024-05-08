@@ -10,14 +10,14 @@
 }
 
 /* Estilização do formulário de cadastro de itens */
-.cadastro_item {
+#cadastro_item {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
 }
 
-.cadastro_item .item_input {
+#cadastro_item .item_input {
     border: none;
     padding: 10px;
     border-bottom: solid black 1px;
@@ -26,11 +26,7 @@
     width: 80%;
 }
 
-.cadastro_item .item_input::target-text {
-    border: none;
-}
-
-.cadastro_item label {
+#cadastro_item label {
     margin-bottom: 10px;
     color: #757575;
     font-size: 1em;
@@ -47,6 +43,10 @@
     color: #757575;
 }
 
+#select_instituicao {
+    color: #757575;
+}
+
 .botao_enviar {
     background-color: #61bdbb;
     width: 80%;
@@ -56,4 +56,3 @@
     border-radius: 10px;
     margin-top: 20px;
 }
-

@@ -10,23 +10,29 @@ body {
 
 h1 {
     text-align: center;
-    color: rgb(71, 52, 26);
 }
 
 /* Estilização do formulario */
 #form {
     max-width: 500px;
-    min-height: 500px;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 16px;
     align-items: center;
     background-color: rgb(253, 235, 211);
     border-radius: 50px;
     margin: 50px auto;
-    font-size: 32px;
+    font-size: 28px;
 }
 
-#form input {
+#form input, #form select {
     padding: 10px 20px;
+}
+
+/* Estilização do resultado */
+.texto_conversao {
+    margin-bottom: 50px;
+    text-align: center;
+    align-self: flex-end;
 }
