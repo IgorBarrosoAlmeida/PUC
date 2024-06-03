@@ -1,0 +1,36 @@
+{
+    "filmes": [
+      {
+        "id": 1,
+        "nome": "Mulan",
+        "genero": "Animação",
+        "sinopse": "Mulan, uma jovem chinesa que não se encaixa na sociedade, teme que seu pai, um homem doente, seja convocado para lutar na guerra que se aproxima. A garota então se disfarça de homem e assume o posto de seu pai no exército chinês. Acompanhada por seu dragão Mushu, Mulan parte para a linha de batalha, faz amizade com os outros soldados e usa sua inteligência para ajudar a combater a invasão dos hunos enquanto luta para esconder sua verdadeira identidade.",
+        "linkImg":"https://static.wikia.nocookie.net/disney/images/0/04/Profile_-_Mulan.jpeg",
+        "dataDeLancamento": "05/06/1998"
+      },
+      {
+        "id": 2,
+        "nome": "Sociedade da neve",
+        "genero": "Drama",
+        "sinopse": "Sociedade é uma associação entre indivíduos que compartilham valores culturais e éticos e que estão sob um mesmo regime político e econômico, em um mesmo território e sob as mesmas regras de convivência.",
+        "linkImg": "https://s2-oglobo.glbimg.com/Zl880ymbIocES_PQxCx40aYkYPU=/0x0:1080x1080/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/K/v/C08zSJRmWJpCrD0CPx3g/deitado-compare.jpg",
+        "dataDeLancamento": "15/12/2023"
+      },
+      {
+        "id": 3,
+        "nome": "Tim Maia",
+        "genero": "Documentario",
+        "sinopse": "A vida problemática e a trajetória musical do cantor e compositor Tim Maia, da infância no Rio de Janeiro até a morte prematura, aos 55 anos.",
+        "linkImg": "https://play-lh.googleusercontent.com/_xWsv7SLomPpWrbzqs4EIUpI69Tzfasdff00nDqkMCKbSspjoY0BuLd9bVVxxgsf6tKIgg=w240-h480-rw",
+        "dataDeLancamento": "30/10/2014"
+      },
+      {
+        "id": 4,
+        "nome": "Carros",
+        "genero": "Animação",
+        "sinopse": "Relâmpago McQueen (Owen Wilson) é um carro de corridas ambicioso, que já em sua 1ª temporada na Copa Pistão torna-se um astro. Ele sonha em se tornar o 1º estreante a vencer o campeonato, o que possibilitaria que assinasse um patrocínio com a cobiçada Dinoco.",
+        "linkImg": "https://play-lh.googleusercontent.com/kHt8qbche40zkE6yZwA8IUe5ARINp4PjrJ5mi622GEzQFYWCaGTQDAl58rrRKRKyhnD2=w240-h480-rw",
+        "dataDeLancamento": "26/05/2006"
+      }
+    ]
+  }
